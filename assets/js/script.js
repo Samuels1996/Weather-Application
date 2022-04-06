@@ -1,3 +1,7 @@
+var apiKey = '00216aa0eac236cbf1da5d596e55aab8';
+var lat = lat;
+var long = long;
+
 document.querySelector('button').addEventListener('click', showWeather);
 
 
@@ -16,7 +20,7 @@ function showWeather() {
             .then (res=>res.json())
             .then (data =>{
                 console.log(data)
-            })
+            }(https://api.openweathermap.org/data/2.5/weather?lat={lat}&lon={lon}&appid={API key})
         })
     }
 }
